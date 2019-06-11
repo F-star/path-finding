@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #canvas {
+            height: 400px;
+            width: 400px;
+        }
+    </style>
+</head>
+<body>
+    <div id="canvas"></div>
+    <label for="start">起点</label><input id="start" type="text">
+    <label for="destination">终点</label><input id="destination" type="text">
+    <input id="getpath_btn" type="button" value="计算路径">
+    <p><span>路径：</span><span id="output"></span> </p>
+    <script src="./src/index.js" type="module"></script>
+</body>
+</html>
